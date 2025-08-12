@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spendrr</title>
+    <link rel="stylesheet" href="spendr.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+_</head>
+<body>
+  <div class="spendr">
+    <div class="leftblock">
+      <div class="header">
+          <h2 style="font-family: 'Merriweather', serif;">DESCRIPTION & VALUES</h2>
+      </div>
+
+
+
+     <form id="munyunform" style="font-family: 'Playfair Display', serif;" class="munyunform">
+               <input type="text" id="description" placeholder="Details" style="font-family: 'Playfair Display', serif;" required>
+               <input type="number" id="munyun" placeholder="Value In Ksh" style="font-family: 'Playfair Display', serif;" required step="1">
+          <select id="type"required>
+              <option value="income" style="font-family: 'Playfair Display', serif;">Income</option>
+              <option value="expense" style="font-family: 'Playfair Display', serif;">Expenses</option>
+          </select>
+              <button type="submit" style="font-family: 'Playfair Display', serif; background-color:#87897c;color: white;border: 1px solid #87897c;font-weight: 900;" >Add Income / Expense</button>
+
+     </form>
+        <div class="blocks">
+
+         <div id="Balance" style="margin-top: 10px;">Final Balance: <span style="color: #c8aa6e;font-weight: 600;"  id="balance">Ksh 0</span></div>
+         <div id="Income">Total income: <span style="color: #6d7a8c;font-weight: 600;" id="income" >Ksh 0</span></div>
+         <div id="Expenses">Total Expenses: <span style="color: #c85a5a;font-weight: 600;" id="expenses">Ksh 0</span></div>
+    
+        </div>
+       </div>
+
+         <div class="rightblock" id="rightblock">
+            <h2 style="font-family: 'Merriweather', serif;" class="header" >EXPENSES & INCOME</h2>
+            <!-- <div id="transaction">
+                <div class="transaction income">
+                    <span>Monthly Intrest</span>
+                    <span class="amounttrans"> ksh 500 <button class="Delete">Delete</button></span>
+
+                </div>
+            </div>
+             <div id="transaction">
+                <div class="transaction expense">
+                    <span>Monthly Intrest</span>
+                    <span class="amounttrans"> ksh 500 <button class="Delete">Delete</button></span>
+
+                </div>
+            </div>
+             <div id="transaction">
+                <div class="transaction expense">
+                    <span>Monthly Intrest</span>
+                    <span class="amounttrans"> ksh 500 <button class="Delete">Delete</button></span>
+
+                </div>
+            </div>
+             <div id="transaction">
+                <div class="transaction income">
+                    <span>Monthly Intrest</span>
+                    <span class="amounttrans"> ksh 500 <button class="Delete">Delete</button></span>
+
+                </div>
+            </div> -->
+            
+ </div>
+   </div>
+    <script src="spender.js"></script>
+</body>
+</html>

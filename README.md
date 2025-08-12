@@ -1,6 +1,6 @@
 # Spendr – A Budget Tracker Website
 
-Spendr is a simple and intuitive budget tracker website that helps users manage their income and expenses efficiently.
+Spendr is a simple and nice loking budget tracker website that helps users manage their money in a way that is better and easier to use.
 
 
 
